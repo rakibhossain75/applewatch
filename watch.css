@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(to right, rgb(69, 140, 92) , rgb(127, 162, 21));
+}
+
+*{
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ 
+ .logo{
+     font-size: 25px;
+     margin-top: 40px;
+     margin-left: 200px;
+ }
+ 
+ .logo a{
+     text-decoration: none;
+     color: white;
+     font-family: 'DM Serif Display', serif;
+ }
+ 
+ ul li{
+     list-style: none;
+ }
+ 
+ .nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+     color: white;
+     
+ }
+ .nav-link li{
+     width: 170px;
+     text-align: center;
+     padding: auto;
+     height: 30px;
+     float: left;
+     font-size: 18px;
+     line-height: 50px;
+     position: relative;
+     cursor: pointer;
+ }
+ 
+ .nav-link li:hover{
+     color: rgb(158, 224, 14);
+ }
+ 
+ .price{
+    margin-top: 30px;
+     margin-right: 330px;
+     background-color: black;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 10%;
+    font-size: 16px;
+    cursor: pointer;
+ }
+
+ .container{ 
+    display: flex;
+    margin-left: 70px;
+ }
+.container-left{  
+    margin-top: 12%;
+    margin-left: 100px;
+    justify-content: space-between;   
+}
+
+
+.container-left h1{
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.container-left p{
+    margin-right: 20%;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: white;
+}
+.buy{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buy:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.container-right-img{
+   width: 32%;
+   height: 100%;
+   margin-right: 12%;
+   mix-blend-mode: color-burn;
+   margin-top: -10px;
+}
